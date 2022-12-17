@@ -291,7 +291,7 @@ compute_regret_ratio(brute_force_opt['optimal_reward'], step3_UCB.reward_history
 
 
 # results
-print('\nTrue values --')
+print('\nTheoretical values --')
 print(env_agg.theoretical_values['conversion_rates'])
 
 print('\nResults --')
@@ -355,7 +355,7 @@ compute_regret_ratio(brute_force_opt['optimal_reward'], step4_UCB.reward_history
 
 
 # results
-print('\nTrue values --')
+print('\nTheoretical values --')
 print('Conversion rates:')
 print(env_agg.theoretical_values['conversion_rates'])
 print('Alpha ratios:')
@@ -432,7 +432,7 @@ compute_regret_ratio(brute_force_opt['optimal_reward'], step5_UCB.reward_history
 
 
 # results
-print('\nTrue values --')
+print('\nTheoretical values --')
 print('Conversion rates:')
 print(env_agg.theoretical_values['conversion_rates'])
 print('Graph probabilities:')
