@@ -2,7 +2,7 @@ from reward import *
 
 import numpy as np
 
-  
+
 def greedy_optimizer(env : Environment,
                      conversion_rates = None, alphas = None, n_prods_param = None, graph_probs = None,
                      user_idx = None, group_list = None, cat_prob = None):
@@ -98,4 +98,4 @@ def brute_force_optimizer(env : Environment,
               'combination'    : opt_prices_idxs}
     
     return result
-
+  
